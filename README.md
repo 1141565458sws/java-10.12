@@ -15,23 +15,21 @@ java课件作业项目仓库
  
     1.
 
-           public int getSpeed() {
-		return Speed;
-	   }
-
-	   public void setSpeed(int speed) {
-		 this.Speed = speed;
-	   }
-
-	   public String getName() {
-		 return name;
-	   }
-
-
-	   public void setName(String name) {
-		 this.name = name;
-	   }
-  
+          CPU(int speed,String type,int ram){
+		this.speed=speed;
+		this.type=type;
+		this.ram=ram;
+	}
+	
+	public int getSpeed() {
+		return speed;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	public String getType() {
+		return type;
+	}
     2.
    
           CPU cpu=new CPU();
