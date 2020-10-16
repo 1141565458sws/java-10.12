@@ -7,9 +7,9 @@ java课件作业项目仓库
 ## 2. 实验设计
 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
 
-    public class CPU {
-    public int Speed;   
-    public String name; 
+   private int speed;		//cpu速度
+	private String type;	//cpu类型
+	private int ram;		//cpu内存
 
  ## 3. 核心方法
  
@@ -32,8 +32,9 @@ java课件作业项目仓库
 	}
     2.
    
-          CPU cpu=new CPU();
-	  HardDisk HD= new HardDisk();
+                 CPU cpu = new CPU(2200, "AMD", 32);
+		
+		HardDisk disk = new HardDisk(459, "西部数据", 500);
    
    
    ## 4. 实验结果
