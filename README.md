@@ -7,9 +7,9 @@ java课件作业项目仓库
 ## 2. 实验设计
 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
 
-   private int speed;		
-	private String type;	
-	private int ram;
+   private int speed;		<br>
+	private String type;	<br>
+	private int ram;<br>
 
  ## 3. 核心方法
  
