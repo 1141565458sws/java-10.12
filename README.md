@@ -7,9 +7,9 @@ java课件作业项目仓库
 ## 2. 实验设计
 1.设置硬盘对象，给CPU对象设置amount,speed方法。设置amount,speed方法在硬盘对象外不可访问
 
-   private int speed;		//cpu速度
-	private String type;	//cpu类型
-	private int ram;		//cpu内存
+   private int speed;		
+	private String type;	
+	private int ram;
 
  ## 3. 核心方法
  
@@ -49,7 +49,5 @@ java课件作业项目仓库
 
   ## 5.实验感想
 
-  1. 通过这个实验学习到了
-     public private 的不同用法
-  2. 如何通过构造方法来获取相应的值
-  3. 学会了如何导出项目，意外中学会了Java类文件放在src根目录下
+  1. 学到了public private 的不同用法
+  2. 学会了如何导出项目，意外中学会了Java类文件放在src根目录下
